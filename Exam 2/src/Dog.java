@@ -4,21 +4,22 @@ public class Dog extends Pet {
 	
 	public Dog(int w, String name, double Price, String AKC) {
 		super(PET_TYPE.Canine, w, name, Price);
-		this.AKC = AKC;
+		this.setAKC(AKC);
 	}
 	public Dog(int w, String name, double Price) {
 		super(PET_TYPE.Canine, w, name, Price);
-		this.AKC = "Mutt";
+		this.setAKC("Mutt");
 	}
 
 	@Override
 	public String sound() {
 		return "Woof, Woof";
 	}
-	
-	@Override
-	public String toString(){
-		return String.format("%-10s%-15s   weight: %3s, price: $%,.2f, makes sound: %s, Reg: %s.", this.getType(), this.getName(), this.getWeight(), this.getPrice(), sound(), this.AKC);
+	public String getAKC() {
+		return AKC;
+	}
+	public void setAKC(String aKC) {
+		AKC = aKC;
 	}
 
 }
