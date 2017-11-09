@@ -8,7 +8,7 @@ public abstract class Pet {
 	private double price;
 	
 	// Constructor function
-	// Takes (Type, Weight, name)
+	// Takes (Type, Weight, name, price)
 	public Pet(PET_TYPE t, int w, String name, double Price){
 		this.type = t;
 		this.weight = w;
@@ -21,28 +21,24 @@ public abstract class Pet {
 	
 	// ===== GET =====
 	
-	//Get the pets weight
 	public int getWeight(){
 		return this.weight;
 	}
 	
-	//Get the pets name
 	public String getName(){
 		return this.name;
 	}
 	
-	//Get the pets type
 	public PET_TYPE getType(){
 		return this.type;
 	}
 	
-	//Get the pets price
 	public double getPrice() {
 		return price;
 	}
 	
 	// ===== SET =====
-	
+	// If the weight is > 0 return true, else false
 	public boolean setWeight(int w){
 		if(w > 0){
 			this.weight = w;
@@ -52,7 +48,6 @@ public abstract class Pet {
 		}
 	}
 	
-	//Set the pet price
 	public void setPrice(double price) {
 		this.price = price;
 	}

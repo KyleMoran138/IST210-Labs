@@ -29,7 +29,11 @@ public class PetTest {
 		
 		// Iterate over the array list and display the 
 		for(Pet p : AlistPets){
+			
+			// If the pet type is a dog then display it's AKC else just display Pet.toString()
 			if(p.getType() == PET_TYPE.Canine){
+				
+				// This is the same as the toString() in Pet.java but this one includes p.getAKC()
 				System.out.println(String.format("%-10s%-15s   weight: %3s, price: $%,.2f, makes sound: %s, Reg: %s.", p.getType(),
 						p.getName(), p.getWeight(), p.getPrice(), p.sound(),((Dog) p).getAKC()));
 			}else{
