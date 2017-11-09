@@ -1,0 +1,6 @@
+E:\School\IntroToObjectOrientedProgramming\workspace\Lab 18B\Lab 18B\obj\Debug\Lab 18B.csprojResolveAssemblyReference.cache
+E:\School\IntroToObjectOrientedProgramming\workspace\Lab 18B\Lab 18B\bin\Debug\Lab 18B.exe.config
+E:\School\IntroToObjectOrientedProgramming\workspace\Lab 18B\Lab 18B\bin\Debug\Lab 18B.exe
+E:\School\IntroToObjectOrientedProgramming\workspace\Lab 18B\Lab 18B\bin\Debug\Lab 18B.pdb
+E:\School\IntroToObjectOrientedProgramming\workspace\Lab 18B\Lab 18B\obj\Debug\Lab 18B.exe
+E:\School\IntroToObjectOrientedProgramming\workspace\Lab 18B\Lab 18B\obj\Debug\Lab 18B.pdb
